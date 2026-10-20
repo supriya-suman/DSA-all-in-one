@@ -1,0 +1,32 @@
+{
+  "name": "dsa-mastery-kit",
+  "version": "1.0.0",
+  "description": "Complete, runnable Data Structures & Algorithms reference in JavaScript - one commented file per term.",
+  "main": "run-all.js",
+  "scripts": {
+    "start": "node run-all.js",
+    "all": "node run-all.js",
+    "list": "node run-all.js --list",
+    "check": "node run-all.js --quiet",
+    "fundamentals": "node run-all.js 01-fundamentals",
+    "arrays": "node run-all.js 02-arrays",
+    "strings": "node run-all.js 03-strings",
+    "searching": "node run-all.js 04-searching",
+    "sorting": "node run-all.js 05-sorting",
+    "linked-lists": "node run-all.js 06-linked-lists",
+    "stacks-queues": "node run-all.js 07-stacks-queues",
+    "hashing": "node run-all.js 08-hashing",
+    "trees": "node run-all.js 09-trees",
+    "heaps": "node run-all.js 10-heaps",
+    "advanced": "node run-all.js 11-advanced-data-structures",
+    "graphs": "node run-all.js 12-graphs",
+    "dp": "node run-all.js 13-dynamic-programming",
+    "greedy": "node run-all.js 14-greedy",
+    "backtracking": "node run-all.js 15-backtracking",
+    "divide-conquer": "node run-all.js 16-divide-and-conquer"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}
