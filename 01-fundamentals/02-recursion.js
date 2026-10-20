@@ -12,6 +12,7 @@
  * RUN: node 01-fundamentals/02-recursion.js
  */
 // My world
+// My world
 function factorial(n) { // n! = n * (n-1) * ... * 1
   if (n <= 1) return 1; // base case: 0! = 1! = 1
   return n * factorial(n - 1); // recursive case: shrink n by 1
